@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<TargetFrameworks>net8.0</TargetFrameworks>
+	<PackageId>VHub.Library.GenericRepository</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>VHub</Authors>
+	<Description>Generic Repository pattern implementation for Entity Framework Core</Description>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
+
+</Project>
